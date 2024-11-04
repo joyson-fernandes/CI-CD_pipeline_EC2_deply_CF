@@ -16,7 +16,7 @@ Resources:
           sudo yum install -y httpd
           sudo systemctl start httpd
           sudo systemctl enable httpd
-          echo "<html><h1>This is Joysontech!!</h1></html>" > /var/www/html/index.html
+          sudo echo "<html><h1>This is Joysontech!!</h1></html>" > /var/www/html/index.html
 
   InstanceSecurityGroup:
     Type: AWS::EC2::SecurityGroup
