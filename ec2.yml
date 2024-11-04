@@ -16,7 +16,7 @@ Resources:
           sudo yum install -y httpd
           sudo systemctl start httpd
           sudo systemctl enable httpd
-          echo "<html><h1>Orange cohort set up their first Github Action!!</h1></html>" > /var/www/html/index.html
+          sudo echo "<html><h1>Orange cohort set up their first Github Action!!</h1></html>" > /var/www/html/index.html
 
   InstanceSecurityGroup:
     Type: AWS::EC2::SecurityGroup
